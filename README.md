@@ -185,7 +185,7 @@ Now press (Ctrl-X) to exit
     
 ### STEP 14 create a site in frappe bench 
     
-    bench new-site dcode.com
+    bench new-site erpnext.com
     
     bench --site erpnext.com add-to-hosts
 
@@ -199,7 +199,7 @@ Open url http://erpnext.com:8000 to login
     ###OR
     bench get-app https://github.com/frappe/erpnext --branch version-15
 
-    bench --site dcode.com install-app erpnext
+    bench --site erpnext.com install-app erpnext
     
     bench start
     
