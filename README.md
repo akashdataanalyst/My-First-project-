@@ -175,6 +175,12 @@ Now press (Ctrl-X) to exit
     sudo -H pip3 install frappe-bench
     
     bench --version
+
+    Note = Agar ye kaam na kare phir 1:sudo apt update
+                                     2:sudo apt install -y pipx python3-full
+                                     3:pipx ensurepath
+                                     4:pipx install frappe-bench
+
     
 ### STEP 13 initilise the frappe bench & install frappe latest version 
 
